@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
   .banner,
   .popular {
-    width: 92%;
+    width: 89%;
   }
   .banner-container .form .banner-filter-form {
     flex-direction: column;
@@ -23,7 +23,6 @@
     margin-top: 500px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     height: auto;
   }
   .popular .popular-container {
@@ -31,14 +30,48 @@
     margin-top: 100px;
     gap: 0px;
   }
-  .popular-pic {
+  .popular-pic img{
     width: 20%;
     height: auto;
     text-align: center;
   }
   .popular .popular-container .popular-content .btn2 {
     margin: 50px auto;
-    width: 50%;
+    width: 20%;
     height: auto;
   }
+  .destination-container .destination-img-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .destination-section .grid-container .grid-img-1 .gt-1 {
+    left: 37%;
+  }
+  .destination-container .destination-img-container .grid-item-2 .gt-2 {
+    left: 37%;
+  }
+  .destination-container .destination-img-container .grid-item-3 .gt-3 {
+    top: 47%;
+    left: 37%;
+  }
+  .destination-container .destination-img-container .grid-item-4 .gt-4{
+    left: 28%;
+    top: 42%;
+  }
+  .destination-container .destination-img-container .grid-item-5 .gt-5 {
+    top: 45%;
+    left: 37%;
+  }
+  .destination-container .destination-img-container .grid-item-6 .gt-6 {
+    left: 32%;
+    top: 45%;
+  }
+  .destination-container .destination-img-container .grid-item-7  .gt-7 {
+    top: 37%;
+    left: 35%;
+  }
+
 }
+
+
+
