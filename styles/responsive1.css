@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+  .banner,
+  .popular {
+    width: 92%;
+  }
+  .banner-container .form .banner-filter-form {
+    flex-direction: column;
+  }
+  .banner-container .form .banner-filter-form #select {
+    position: absolute;
+    left: 68%;
+    top: 60%;
+    border: none;
+  }
+  .banner-container .form .banner-filter-form #option {
+    position: absolute;
+    left: 68%;
+    top: 35%;
+    border: none;
+  }
+
+  .popular-content {
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  .popular .popular-container {
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 0px;
+  }
+  .popular-pic {
+    width: 20%;
+    height: auto;
+    text-align: center;
+  }
+  .popular .popular-container .popular-content .btn2 {
+    margin: 50px auto;
+    width: 50%;
+    height: auto;
+  }
+}
