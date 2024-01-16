@@ -64,6 +64,8 @@
 /* header section css is here  */
 .header {
   width: 81%;
+  max-width: 1170px;
+  height: auto;
   margin: 50px auto;
 }
 
@@ -115,7 +117,7 @@
 
 
 .banner {
-  width: 81%;
+  width: 100%;
   max-width: 1170px;
   height: auto;
   max-height: 500px;
@@ -349,12 +351,12 @@ popular section .popular {
   font-size: 24px;
   color: #131318;
 }
-.choose-container .choose-box {
+.choose-container .choose-card {
   display: flex;
   gap: 24px;
   margin-top: 48px;
 }
-.choose-container .choose-box .box1 {
+.choose-container .choose-card .card1 {
   width: 573px;
   height: 284px;
   border-radius: 16px;
@@ -363,7 +365,7 @@ popular section .popular {
   padding-left: 32px;
   padding-top: 32px;
 }
-.choose-container .choose-box .box2 {
+.choose-container .choose-card .card2 {
   width: 573px;
   height: 284px;
   border-radius: 16px;
@@ -372,7 +374,7 @@ popular section .popular {
   padding-left: 32px;
   padding-top: 32px;
 }
-.choose-container .box3 {
+.choose-container .card3 {
   width: 573px;
   height: 284px;
   border-radius: 16px;
