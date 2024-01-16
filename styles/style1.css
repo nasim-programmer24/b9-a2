@@ -400,10 +400,17 @@ popular section .popular {
   text-align: center;
 }
 
+.visited .visited-container .visited-content .visited-title{
+  margin: 50px;
 
-
+}
+.visited .visited-container .visited-content p {
+  width: 70%;
+  margin: 0px auto 50px auto;
+}
 .visited .visited-container .visited-place-img-container{
   width: 100%;
+  max-width: 1170px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
