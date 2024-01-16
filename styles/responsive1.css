@@ -1,7 +1,9 @@
 @media screen and (max-width: 600px) {
 
   /* header section with some primary shared styles */
-
+  .header{
+    width: 100%;
+  }
   .nav-container .nav-logo-name {
     flex: 1;
     gap: 6px;
@@ -13,6 +15,8 @@
 
 .nav-bars-icon {
     display: block;
+    position: relative;
+    right: 5%;
 }
 
 
@@ -21,26 +25,32 @@
     width: 89%;
   }
 
+  .banner-container{
+    padding: 5px;
+  }
+
   .banner-container .form .banner-filter-form, .newsletter-container {
     flex-direction: column;
   }
   .banner-container .form .banner-filter-form #select {
     position: absolute;
-    left: 68%;
+    left: 63%;
     top: 60%;
     border: none;
   }
   .banner-container .form .banner-filter-form #option {
     position: absolute;
-    left: 68%;
+    left: 63%;
     top: 35%;
     border: none;
   }
-  
+  .banner .banner-container .travel-content .travel-banner-description,.banner-container .travel-content .travel-banner-title{
+    width: 100%;
+  }
   /* popular section started */
 
   .popular-content {
-    margin-top: 600px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -60,7 +70,10 @@
     width: fit-content;
     height: auto;
   }
-
+  .popular .popular-container .popular-content .btn2{
+    width: 30%;
+    height: 50%;
+  }
 /* destination section started */
 
   .destination-container .destination-img-container,.choose-container .choose-card{
@@ -132,21 +145,28 @@
 
   .newsletter-container .newsletter-img .newsletter-content-img{
     width: 50%;
-    height: 20%;
+    height: 30%;
     position: absolute;
     bottom: 20%;
     transform: rotate(-30deg);
+    align-items: center;
+    font-size: x-small;
+  }
+
+  .newsletter-container .newsletter-content form input{
+    width: 100%;
+  }
+
+
+  .footer .footer-container {
+    width: 90%;
   }
 
   .footer-title-main{
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: auto;
   }
-  .hero{
-    font-size: 24px;
-  }
-  .primary-special {
-    font-size: 24px;
-  }
+  
   
   .visited .visited-container .visited-place-img-container{
     display: flex;
