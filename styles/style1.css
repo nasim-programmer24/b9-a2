@@ -134,7 +134,7 @@
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("../images/Group-13.png");
+    url("../Images/Group-13.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   object-fit: cover;
@@ -400,6 +400,8 @@ popular section .popular {
 
 .newsletter-container .newsletter-content {
   padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
 }
 
 .newsletter-container .newsletter-content h2 {
