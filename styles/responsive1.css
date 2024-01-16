@@ -37,10 +37,10 @@
   }
   .popular .popular-container .popular-content .btn2 {
     margin: 50px auto;
-    width: 20%;
+    width: fit-content;
     height: auto;
   }
-  .destination-container .destination-img-container{
+  .destination-container .destination-img-container,.choose-container .choose-box{
     display: flex;
     flex-direction: column;
   }
@@ -70,7 +70,30 @@
     top: 37%;
     left: 35%;
   }
+  .choose-container{
+    width: 89%;
+    height: auto;
+  }
+  .choose-container .choose-box{
+    flex-direction: column;
+  }
+  .choose-container .choose-box .box1{
+    width: 100%;
+    height: 289px;
+  }
+  .choose-container .choose-box .box2{
+    width: 100%;
+    height: 289px;
 
+  }
+  .choose-container .box3{
+    width: 100%;
+    height: 289px;
+
+  }
+  .box1,.box2, .box3{
+    padding: 0px;
+  }
 }
 
 

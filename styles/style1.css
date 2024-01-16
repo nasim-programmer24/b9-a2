@@ -7,10 +7,10 @@
 }
 /* Common Shared Styles */
 
-.primary-img{
-    position: relative;
-    top: 12px;
-    right: 16px;
+.primary-img {
+  position: relative;
+  top: 12px;
+  right: 16px;
 }
 
 .hero {
@@ -120,7 +120,7 @@
   top: 5px;
   right: 3px;
 }
-
+/* popular section start  */
 popular section .popular {
   width: 81%;
   max-width: 1170px;
@@ -151,8 +151,10 @@ popular section .popular {
   height: 52px;
 }
 .popular .popular-container .popular-pic img {
-  width: fit-content;
+  width: 130%;
 }
+
+/* destination section start  */
 
 .destination-container {
   width: 81%;
@@ -260,11 +262,64 @@ popular section .popular {
   top: 50%;
 }
 
+/* Why Choose Us section styles */
+
+.choose-container {
+  width: 81%;
+  max-width: 1170px;
+  height: auto;
+  margin: 0 auto;
+}
+.choose-container .choose-content {
+  text-align: center;
+  align-items: center;
+}
+.choose-container .choose-content .box-title {
+  font-weight: 800;
+  font-size: 24px;
+  color: #131318;
+}
+.choose-container .choose-box {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+.choose-container .choose-box .box1 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding-left: 32px;
+  padding-top: 32px;
+}
+.choose-container .choose-box .box2 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding-left: 32px;
+  padding-top: 32px;
+}
+.choose-container .box3 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding-left: 32px;
+  padding-top: 32px;
+  margin: 24px auto 0 auto;
+}
+
 /* footer section start */
 .footer {
   width: 100%;
   max-width: 1440px;
   height: auto;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
