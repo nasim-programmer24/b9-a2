@@ -138,17 +138,15 @@
     transform: rotate(-30deg);
   }
 
-
-
-
-  /* .header {
-    width: 85%;
-} */
-
-
-
-
-
+  .footer-title-main{
+    padding-left: 0px;
+  }
+  .hero{
+    font-size: 24px;
+  }
+  .primary-special {
+    font-size: 24px;
+  }
 }
 
 
