@@ -161,12 +161,11 @@
   .newsletter-container .newsletter-content form input{
     width: 100%;
   }
-
-
-  .footer .footer-container {
+  .newsletter-container .newsletter-content p, .footer .footer-container{
     width: 90%;
   }
 
+  
   .footer-title-main{
     padding-left: 10px;
     padding-right: auto;
