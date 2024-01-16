@@ -6,14 +6,11 @@
   font-family: "Mulish", sans-serif;
 }
 
-* css variable custom property */ 
-:root {
+* css variable custom property */ :root {
   --primary-title-color: #ff5400;
   --primary-font-color: rgba(19, 19, 24, 0.7);
   --secondary-font-color: #5a5a5d;
 }
-
-
 
 /* Common Shared Styles */
 
@@ -51,7 +48,12 @@
   line-height: 26px;
 }
 
-
+.secondary-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
 
 /* this class and style is related with phone or small size devices */
 .nav-bars-icon {
@@ -101,20 +103,19 @@
   font-size: 1.13rem;
 }
 
-.nav-container .nav-list-container,.nav-container .nav-list-container li a{
+.nav-container .nav-list-container,
+.nav-container .nav-list-container li a {
   list-style: none;
   text-decoration: none;
 }
-.nav-container .nav-list-container li a{
-
+.nav-container .nav-list-container li a {
   color: #424247;
 }
 
 .nav-container .nav-list-container #list-home {
-  color: #FF5400;
+  color: #ff5400;
   font-weight: 700;
 }
-
 
 .banner {
   width: 100%;
@@ -346,7 +347,7 @@ popular section .popular {
   text-align: center;
   align-items: center;
 }
-.choose-container .choose-content .box-title {
+.choose-container .choose-content .card-title {
   font-weight: 800;
   font-size: 24px;
   color: #131318;
@@ -476,14 +477,13 @@ popular section .popular {
   padding-bottom: 110px;
 }
 
-.footer-title-main{
+.footer-title-main {
   display: flex;
   text-align: center;
   padding-left: 25%;
 }
-.logo-img{
+.logo-img {
   position: relative;
   top: 20%;
   right: 2%;
-
 }
