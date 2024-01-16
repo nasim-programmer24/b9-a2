@@ -144,10 +144,10 @@
   }
 
   .newsletter-container .newsletter-img .newsletter-content-img{
-    width: 50%;
+    width: 48%;
     height: 30%;
     position: absolute;
-    bottom: 20%;
+    bottom: 18%;
     transform: rotate(-30deg);
     align-items: center;
     font-size: x-small;
