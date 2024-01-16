@@ -34,19 +34,24 @@
   }
   .banner-container .form .banner-filter-form #select {
     position: absolute;
-    left: 63%;
+    left: 90%;
     top: 60%;
     border: none;
   }
   .banner-container .form .banner-filter-form #option {
     position: absolute;
-    left: 63%;
+    left: 90%;
     top: 35%;
     border: none;
   }
   .banner .banner-container .travel-content .travel-banner-description,.banner-container .travel-content .travel-banner-title{
     width: 100%;
   }
+
+  .banner-container .form .banner-filter-form .input, .banner-container .form .banner-filter-form .btn1{
+    width: 100%;
+  }
+
   /* popular section started */
 
   .popular-content {
