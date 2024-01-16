@@ -6,11 +6,20 @@
   font-family: "Mulish", sans-serif;
 }
 
+* css variable custom property */ 
+:root {
+  --primary-title-color: #ff5400;
+  --primary-font-color: rgba(19, 19, 24, 0.7);
+  --secondary-font-color: #5a5a5d;
+}
+
+
+
 /* Common Shared Styles */
 
 .primary-img {
-  position: relative;
-  top: 12px;
+  position: absolute;
+  top: 120px;
   right: 16px;
 }
 
@@ -41,7 +50,70 @@
   font-weight: 400;
   line-height: 26px;
 }
-/* Start Header Section From Here  */
+
+
+
+/* this class and style is related with phone or small size devices */
+.nav-bars-icon {
+  font-size: 2rem;
+  border: 0;
+  background: none;
+  display: none;
+}
+
+/* header section css is here  */
+.header {
+  width: 81%;
+  margin: 50px auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container .nav-logo-name {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-logo {
+  width: 56px;
+  object-fit: cover;
+}
+
+.nav-container .nav-logo-name .nav-title {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.nav-container .nav-list-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  color: #424247;
+  font-size: 1.13rem;
+}
+
+.nav-container .nav-list-container,.nav-container .nav-list-container li a{
+  list-style: none;
+  text-decoration: none;
+}
+.nav-container .nav-list-container li a{
+
+  color: #424247;
+}
+
+.nav-container .nav-list-container #list-home {
+  color: #FF5400;
+  font-weight: 700;
+}
+
+
 .banner {
   width: 81%;
   max-width: 1170px;
@@ -355,7 +427,7 @@ popular section .popular {
   height: 52px;
 }
 
-.newsletter-container .newsletter-img .newsletter-content-img{
+.newsletter-container .newsletter-img .newsletter-content-img {
   width: 324px;
   height: 120px;
   transform: rotate(-19.628deg);
@@ -402,6 +474,14 @@ popular section .popular {
   padding-bottom: 110px;
 }
 
-.hide {
-  display: none;
+.footer-title-main{
+  display: flex;
+  text-align: center;
+  padding-left: 25%;
+}
+.logo-img{
+  position: relative;
+  top: 20%;
+  right: 2%;
+
 }

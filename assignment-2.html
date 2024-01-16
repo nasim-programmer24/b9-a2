@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel</title>
 
+    <!-- cdns link for fontawesome -->
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -19,8 +21,23 @@
     <link rel="stylesheet" href="./styles/responsive1.css" />
   </head>
   <body>
-    <header>
-      <nav></nav>
+    <header class="header">
+      <nav class="nav-container">
+        <div class="nav-logo-name">
+          <img class=".nav-logo"  src="./images/Group-40071-(2).png" alt="" />
+          <h3 class="nav-title"><span class="hero">DreamCatcher</span> <span class="primary-special">Travel</span></h3>
+        </div>
+        <ul class="nav-list-container">
+          <li>
+            <a href=""><span id="list-home">Home</span></a>
+          </li>
+          <li><a href="">Packages</a></li>
+          <li><a href="">Testimonial</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <button class="nav-bars-icon"><i class="fa-solid fa-bars"></i></button>
+      </nav>
       <section class="banner">
         <div class="banner-container">
           <div class="travel-content">
@@ -179,16 +196,22 @@
       <section class="newsletter-container">
         <div class="newsletter-content">
           <h2>Newsletter</h2>
-          <p class="p">Get your daily dose of travel news & tips. Sign up today!</p>
-          <hr>
+          <p class="p">
+            Get your daily dose of travel news & tips. Sign up today!
+          </p>
+          <hr />
           <form>
-            <input type="text" placeholder="Enter your name"> <br>
-            <input type="email" name="email" placeholder="Enter your email"><br>
+            <input type="text" placeholder="Enter your name" /> <br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+            /><br />
             <button class="primary-btn subscribe">Subscribe</button>
           </form>
         </div>
         <div class="newsletter-img">
-          <img src="./images/Rectangle-8 (1).png" alt="">
+          <img src="./images/Rectangle-8 (1).png" alt="" />
           <div class="primary-btn newsletter-content-img">
             <h3>Travel.com</h3>
             <h2>Save up to 70%</h2>
@@ -200,19 +223,24 @@
       <div class="footer">
         <div class="footer-container">
           <div class="footer-content">
+            <div class="footer-title-content">
+              <div class="footer-title-main">
+                <img class="logo-img"
+              src="./images/Group-40071-(2).png"
+              alt=""
+            />
             <h1 class="footer-title">
-              <img
-                class="primary-img"
-                src="./images/Group-40071-(2).png"
-                alt=""
-              /><span class="hero">Hero</span>
+              <span class="hero">DreamCatcher</span>
               <span class="primary-special">Travel</span>
             </h1>
+          </div>
+          
             <p class="footer-descriptio primary-description">
               Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi
               vitae blandit orci potenti vulputate. Leo erat maecenas vitae
               elementum ultricies nullam.
             </p>
+          </div>
             <div class="footer-icon">
               <a href=""><i class="fa-brands fa-twitter"></i></a>
               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>

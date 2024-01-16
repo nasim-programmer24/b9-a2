@@ -1,6 +1,21 @@
 @media screen and (max-width: 600px) {
 
   /* header section with some primary shared styles */
+
+  .nav-container .nav-logo-name {
+    flex: 1;
+    gap: 6px;
+}
+
+.nav-container .nav-list-container {
+    display: none;
+}
+
+.nav-bars-icon {
+    display: block;
+}
+
+
   .banner,
   .popular {
     width: 89%;
@@ -25,7 +40,7 @@
   /* popular section started */
 
   .popular-content {
-    margin-top: 500px;
+    margin-top: 600px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -122,6 +137,18 @@
     bottom: 20%;
     transform: rotate(-30deg);
   }
+
+
+
+
+  /* .header {
+    width: 85%;
+} */
+
+
+
+
+
 }
 
 
