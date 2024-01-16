@@ -147,6 +147,12 @@
   .primary-special {
     font-size: 24px;
   }
+  
+  .visited .visited-container .visited-place-img-container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
 }
 
 
